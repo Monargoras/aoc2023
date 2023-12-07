@@ -16,6 +16,7 @@ def partOne():
     result = 0
     with open('input.txt') as input:
         rank = sum(1 for _ in input)
+        
     with open('input.txt') as input:
         for line in input:
             cardCount = {}
@@ -66,6 +67,7 @@ def partTwo():
     result = 0
     with open('input.txt') as input:
         rank = sum(1 for _ in input)
+
     with open('input.txt') as input:
         for line in input:
             cardCount = {}
